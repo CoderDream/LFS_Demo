@@ -43,3 +43,20 @@ To github.com:CoderDream/LFS_Demo.git
    8e8a77c..b6cbe60  master -> master
 CoderDreamdeiMac:LFS_Demo coderdream$ 
 ```
+
+- Checkout Project
+```
+CoderDreamdeiMac:~ coderdream$ cd Documents/
+CoderDreamdeiMac:Documents coderdream$ mkdir lfs2
+CoderDreamdeiMac:Documents coderdream$ cd lfs2/
+CoderDreamdeiMac:lfs2 coderdream$ git clone git@github.com:CoderDream/LFS_Demo.git
+Cloning into 'LFS_Demo'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 16 (delta 3), reused 11 (delta 1), pack-reused 0
+Receiving objects: 100% (16/16), done.
+Resolving deltas: 100% (3/3), done.
+Filtering content: 100% (2/2), 107.95 MiB | 1.44 MiB/s, done.
+CoderDreamdeiMac:lfs2 coderdream$ 
+```
